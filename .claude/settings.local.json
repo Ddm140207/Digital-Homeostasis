@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -E \"\\\\.\\(py|md|txt|yml|yaml\\)$\")",
+      "Bash(find '/c/Users/pator/Desktop/Digital Homeostasis' -type f -not -path *__pycache__* -not -name *.pyc)",
+      "Bash(pip install:*)",
+      "Bash(python tests/test_all.py)",
+      "Bash(py --version)",
+      "Bash(python -m pytest tests/test_all.py -v --tb=short)",
+      "Bash(python -c \":*)",
+      "Bash(grep -E '\\\\.\\(md|txt|rst\\)$')",
+      "Bash(\"c:/Users/pator/Desktop/Digital Homeostasis/experiments/__init__.py\")",
+      "Bash(\"c:/Users/pator/Desktop/Digital Homeostasis/visualization/__init__.py\")",
+      "Read(//c/Users/pator/.claude/projects/c--Users-pator-Desktop-Digital-Homeostasis/**)",
+      "Read(//c/Users/pator/.claude/projects/c--Users-pator-Desktop-Digital-Homeostasis/memory/**)"
+    ]
+  }
+}
